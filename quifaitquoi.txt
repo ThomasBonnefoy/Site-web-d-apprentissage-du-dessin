@@ -10,9 +10,9 @@ Thomas:
 EDT+Atelier,
 liens vers exo,
 conseils et locations
-composition
+
 
 Luckas:
 anatomie,
-qualité de lignes/valeurs
-est perdu
+qualité de lignes/valeurs,
+composition
