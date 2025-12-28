@@ -1,3 +1,5 @@
+/*Emploi du temps*/
+
 /* Basic page styling */
 body {
     font-family: Arial, sans-serif;
@@ -56,4 +58,18 @@ body {
 .today {
     background-color: #ffdd57;
     font-weight: bold;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+}
+.logohead img {
+    width :20%;
+}
+.logohead nav {
 }
