@@ -3,24 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>Boutique Lascaux - Anatomie</title>
-        <link rel="icon" href="../img/logo.png" type="image/jpg">
-        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="icon" href="img/logo.png" type="image/jpg">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:wght@400;600&display=swap">
     </head>
 
     <body>
         <header>
-            <a href="../homepage.html"><img src="../img/logo.png" /></a>
-            <nav>
-                <a href="../planning.html">Planning</a>
-                <a href="../conseil_location.html">Conseils</a>
-                <a href="../lien_exo.html">Exercices</a>
-            </nav>
+            <div class="logohead">
+                <a href="homepage.html"><img src="img/logo.png"  alt="Boutique Lascaux – Accueil"/></a>
+            </div>
+            <div class="navhead">
+                <nav>
+                    <a href="planning.html">Planning</a>
+                    <a href="conseil_location.html">Conseils</a>
+                    <a href="lien_exo.html">Exercices</a>
+                </nav>
+            </div>
         </header>
+
+        <aside>
+
+        </aside>
 
         <main>
             <div>
-                <img src="img\logo.jpg" />
+                <img src="img/logo.png" />
                 <h3>Explications:</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,24 +45,27 @@
                     Donec sit amet scelerisque mauris, in tincidunt eros.
                     Aenean cursus, sem vel.
                 </p>
-                <img src="img\logo.jpg" /> 
+                <img src="img/logo.png"/> 
             </div>
         </main>
 
+
         <footer>
             <div>
-                <img src="../img/logo.png" />
+                <img src="img/logo.png"  alt="Boutique Lascaux – Accueil"/>
                 <nav>
-                    <a href="../planning.html">Planning</a>
-                    <a href="../conseil_location.html">Conseils</a>
-                    <a href="../lien_exo.html">Exercices</a>
+                    <a href="planning.html" class="link-underline">Planning</a>
+                    <a href="conseil_location.html" class="link-underline">Conseils</a>
+                    <a href="lien_exo.html" class="link-underline">Exercices</a>
                 </nav>
                 <!--logo reseaux-->
-                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <div class="reseaux">
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </div>    
             </div>
-            <div>
+            <div class="copyright">
                 <p>&copy; 2026 Boutique lascaux. Tous droits réservés.</p>
             </div>
         </footer>
