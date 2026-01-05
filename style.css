@@ -948,19 +948,29 @@ footer .copyright p {
     }
 
 .imgvaleur {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0%;
+ 
 }
 
     .imgvaleur img {
         margin-left: 0%;
         margin-right: 0%;
         margin-bottom: 2%;
-        height: 400px;
-        border: 1px solid #000;
-        border-radius: 20px;
+        height: 110%;
+       
+    }
+
+img.valeur1 {
+    width: 65%;
+
+}
+
+    img.valeur2 {
+        width: 34.8%;
     }
 
 @media (max-width: 767px) {
@@ -989,13 +999,15 @@ footer .copyright p {
         justify-content: center;
     }
 
-        .imgvaleur img {
-            height: 95%;
-            width: 95%;
-            margin-left: 2%;
-            margin-right: 2%;
-            margin-bottom: 2%;
-        }
+    .imgvaleur img {
+        height: 95%;
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        border: 1px solid #000;
+        border-radius: 20px;
+    }
 
     .imgvaleur {
         display: flow;
