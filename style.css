@@ -956,40 +956,51 @@ footer .copyright p {
 
 /* #region Luckas */
 .compo2 {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     text-align: center;
     border: 1px solid #000;
     border-radius: 20px;
-    margin: 2%;
+    margin: 20px;
+    margin-left: 80px;
     background-color: #885830;
+    box-shadow: 2px 2px 16px 0px #7C7C7C;
 }
 
 .compo {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    font-size: 150%;
+    flex-direction: column;
+    width: 70%;
+    font-size: 1.4rem;
 }
 
 
 .imgcompo {
-    width: 100%;
+    width: 30%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.compomax {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 80px;
 }
 
 .imgcompo img {
     align-items: center;
     justify-content: center;
-    margin-left: 13%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-    width: 399px;
+    margin: 20px;
+    width: 45%;
     border: 1px solid #000;
     border-radius: 20px;
+    box-shadow: 2px 2px 16px 0px #7C7C7C;
 }
 
 .exp {
@@ -1001,7 +1012,8 @@ footer .copyright p {
     margin: 2%;
     background-color: #885830;
     align-items: center;
-    font-size: 125%;
+    font-size: 1.4rem;
+    box-shadow: 2px 2px 16px 0px #7C7C7C;
 }
 
 .imgtraits {
@@ -1011,15 +1023,16 @@ footer .copyright p {
     justify-content: center;
 }
 
-.imgtraits img {
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 2%;
-    height: 400px;
-    border: 1px solid #000;
-    border-radius: 20px;
-    margin-left: 2%;
-}
+    .imgtraits img {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+        height: 400px;
+        border: 1px solid #000;
+        border-radius: 20px;
+        margin-left: 2%;
+        box-shadow: 2px 2px 16px 0px #7C7C7C;
+    }
 
 .ana {
     width: 100%;
@@ -1027,14 +1040,45 @@ footer .copyright p {
     justify-content: center;
 }
 
-.ana img {
-    margin-left: 39%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    height: 400px;
-    border: 1px solid #000;
-    border-radius: 20px;
+    .ana img {
+        
+        margin:40px;
+        height: 400px;
+        border: 1px solid #000;
+        border-radius: 20px;
+        box-shadow: 2px 2px 16px 0px #7C7C7C;
+    }
+
+.anabas {
+    display:flex;
 }
+
+.videoana {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-bottom:20px;
+}
+
+    .videoana video {
+        width: 75%;
+        margin: 20px;
+        border: solid 3px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px 5px #393939;
+    }
+
+    .videoana a {
+        color: #FAD7B9;
+        background-color: #A65C1B;
+        border: 5px solid #FAD7B9;
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-weight: 600;
+        box-shadow: 5px 5px 15px 5px #393939;
+    }
 
 .imgvaleur {
     width: 100%;
@@ -1062,12 +1106,21 @@ img.valeur2 {
 @media (max-width: 767px) {
     /* anatomie */
     .ana img {
-        margin-left: 22%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        height: 400px;
+        height: auto;
+        width: 90%;
         border: 1px solid #000;
         border-radius: 20px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:5%;
+    }
+
+   
+
+    .anabas {
+        display: flex;
+        flex-direction: column;
     }
     /* traits et valeurs */
     .imgtraits img {
@@ -1093,6 +1146,7 @@ img.valeur2 {
         margin-bottom: 2%;
         border: 1px solid #000;
         border-radius: 20px;
+        box-shadow: 2px 2px 16px 0px #7C7C7C;
     }
 
     .imgvaleur {
@@ -1111,25 +1165,33 @@ img.valeur2 {
         border-radius: 20px;
         margin: 2%;
         background-color: #885830;
+        box-shadow: 2px 2px 16px 0px #7C7C7C;
     }
 
     .compo {
-        display: flow;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 100%;
-        font-size: 125%;
+        font-size: 1.4rem;
+    }
+    .compomax {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
     }
 
     .imgcompo {
         width: 100%;
-        display: flow;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .imgcompo img {
-        width: 70%;
-    }
+        .imgcompo img {
+            width: 70%;
+            
+        }
 }
 /* #endregion */
